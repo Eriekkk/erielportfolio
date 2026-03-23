@@ -1,7 +1,7 @@
 import React from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { motion, useScroll } from 'framer-motion';
-import { projects } from '../data/Projects'; 
+import { projects } from '../data/projects'; 
 import Footer from '../components/Footer';
 
 // Animation Variants for staggering elements
