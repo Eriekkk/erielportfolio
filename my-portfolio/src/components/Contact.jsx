@@ -24,7 +24,7 @@ const Contact = () => {
     },
     {
       name: "Download CV",
-      url: "https://www.canva.com/design/DAGnolt1h34/85U2voXjUfY3hdb87XvpUQ/view?utm_content=DAGnolt1h34&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h4bc3fe0875f",
+      url: "https://www.canva.com/design/DAGnolt1h34/85U2voXjUfY3hdb87XvpUQ/view?utm_content=DAGnolt1h34&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h4bc3fe0875",
       icon: "↓",
     },
   ];
@@ -32,7 +32,6 @@ const Contact = () => {
   return (
     <section className="py-40 px-6 md:px-12 border-t border-white/5 bg-[#050505] relative overflow-hidden flex items-center justify-center">
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-20 items-stretch">
-        {/* Left Side: Philosophy & Interactive Email */}
         <div className="p-10 bg-[#0a0a0a] border border-white/5 shadow-2xl flex flex-col justify-between w-full">
           <div>
             <motion.h2
@@ -70,7 +69,6 @@ const Contact = () => {
           </div>
         </div>
 
-        {/* Right Side: Professional Links */}
         <div className="p-10 bg-[#0a0a0a] border border-white/5 shadow-2xl flex flex-col justify-between w-full">
           <h3 className="text-sm font-bold uppercase tracking-[0.4em] text-white/50 mb-10">
             PROFESSIONAL LINKS
@@ -88,7 +86,6 @@ const Contact = () => {
                 transition={{ delay: i * 0.1 }}
                 className="group flex items-center justify-between py-6 hover:px-4 transition-all duration-300"
               >
-                {/* 👇 GRADIENT HOVER TRICK APPLIED HERE 👇 */}
                 <span className="text-xl uppercase tracking-widest font-bold transition-all duration-500  text-white group-hover:text-transparent bg-clip-text bg-gradient-to-r from-violet-600 to-cyan-500">
                   {link.name}
                 </span>
