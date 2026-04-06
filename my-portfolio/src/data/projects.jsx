@@ -7,7 +7,7 @@ export const projects = [
     github: "https://github.com/DC-BSU-RAK/assignment-100-tomorrow-s-web-Eriekkk.git",
     link: "",
     figma: "",
-    video: "https://youtu.be/GQzVG5C76jQ",
+    video: "https://youtu.be/pUHmNQWGQGQ",
     stack: ["React", "Node.js", "MongoDB", "Tailwind 4.0", "API"],
     challenge: "Connecting my backend and API to the frontend and ensuring a smooth user experience.",
     outcome: "Fully functional e-commers website with Backend that stores user data and API to fetch game data with a immersive UI user experience.",
